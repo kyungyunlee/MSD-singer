@@ -52,7 +52,11 @@ vocal segments (sec): [1.5, 6.0, 7.5, 9.0, 18.0, 19.5, 21.0, 30.0, 31.5, 40.5, 4
 '''
 ```
 
-
+### To create a subset for train/valid/test data
+Identify the number of train and test singers and run the script. The script will randomize which artists to select, so you can create multiple versions of a dataset (can be thought of as a cross validation). Results will be saved as a csvfile in `data` folder. 
+```
+python data_to_csv.py
+```
 
 
 ### Code used to compute SVD
